@@ -1,0 +1,49 @@
+body {
+  background: #fafafa;
+  color: #333;
+}
+
+.App {
+  font-family: serif;
+}
+
+.App-header {
+  text-align: center;
+  margin: 20px 0 40px 0;
+  font-size: 48px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.App-Nav {
+}
+
+.App-Nav > div {
+  display: flex;
+  line-height: 30px;
+  justify-content: center;
+}
+
+.App-Nav .Nav-Item {
+  font-size: 16px;
+  margin: 0 30px;
+  padding: 10px 10px 0 10px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.App-Nav .Nav-Item.active {
+  color: #9f1d35;
+  border-bottom: 2px #9f1d35 solid;
+}
+
+.App .content {
+  background: #eee;
+  height: 400px;
+  margin-top: 20px;
+}
