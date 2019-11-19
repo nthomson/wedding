@@ -1,0 +1,22 @@
+.Site-Nav {
+}
+.Site-Nav > div {
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+}
+  
+.Site-Nav .Nav-Item {
+    font-size: 16px;
+    margin: 0 30px;
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+.Site-Nav .Nav-Item.active {
+    color: #9f1d35;
+    border-bottom: 2px #9f1d35 solid;
+}
