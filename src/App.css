@@ -4,23 +4,25 @@ body {
 }
 
 .App {
-  font-family: 'Italianno', cursive;
+  font-family: garamond;
 }
 
 .header {
   padding: 40px;
-  background: #fafafd;
+  background: #f7f7fd;
 }
 
 .header-logo {
   text-align: center;
-  font-size: 64px;
+  font-size: 80px;
+  font-family: 'Italianno', cursive;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin: 40px 0;
+  color: #036;
 }
 
 .header-logo:before, .header-logo:after {
@@ -46,7 +48,7 @@ body {
 .header-logo .date {
   font-size: 24px;
   color: #9f1d35;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Garamond;
 }
 
 .container {
