@@ -1,0 +1,13 @@
+.travel-info {
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 30px;
+}
+
+.travel-info h2 {
+    margin-top: 0;
+}
+
+.travel-info hr {
+    width: 150px;
+    margin: 40px auto;
+}

@@ -11,7 +11,6 @@ const SiteNav = () => {
                 <NavLink to='/photos' className="Nav-Item">Photos</NavLink>
                 <NavLink to='/travel' className="Nav-Item">Travel</NavLink>
                 <NavLink to='/registry' className="Nav-Item">Registry</NavLink>
-                <NavLink to='/rsvp' className="Nav-Item">RSVP</NavLink>
             </div>
         </nav>
         
