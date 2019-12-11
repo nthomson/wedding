@@ -54,6 +54,7 @@ const Travel = () => {
                     height="650"
                     frameborder="0"
                     style={{border:0}}
+                    className='travel-map'
                     allowfullscreen></iframe>
                 </div>
             </div>

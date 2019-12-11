@@ -1,5 +1,6 @@
 import React from 'react';
-import SimpleImageSlider from "react-simple-image-slider";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import './photos.css';
 
 const Photos = () => {
@@ -13,11 +14,15 @@ const Photos = () => {
     ];
     return (
         <div className='container Photos'>
-            <SimpleImageSlider
-                    width={1000}
-                    height={600}
-                    images={images}
-                />
+            <Carousel dynamicHeight>
+                { images.map( image => (
+                    <div key={image.url}>
+                        <img src={image.url} />
+                    </div>
+                )) }
+            </Carousel>
+
+            <p>Photos by <a href="http://www.brucethomsonphotography.com/">Bruce Thomson Photography</a></p>
         </div>
     );
 }

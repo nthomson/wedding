@@ -11,3 +11,7 @@
     width: 150px;
     margin: 40px auto;
 }
+
+.travel-map {
+    max-width: 100%;
+}
