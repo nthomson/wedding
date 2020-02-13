@@ -11,7 +11,7 @@ const SiteNav = () => {
                 <NavLink to='/photos' className="Nav-Item">Photos</NavLink>
                 <NavLink to='/travel' className="Nav-Item">Travel</NavLink>
                 <a target='_blank'
-                    href='https://www.myregistry.com/wedding-registry/kylie-mcfarland-and-nicholas-thomson-wake-forest-nc/2189673'
+                    href='https://www.blueprintregistry.com/registry/kylie-mcfarland-wedding-registry-10-23-2020'
                     className="Nav-Item"
                 >
                     Registry
