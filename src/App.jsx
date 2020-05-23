@@ -8,6 +8,7 @@ import SiteNav from './components/site-nav/site-nav';
 function App() {
   return (
     <div className="App">
+      <p className='alert'>As of now we have <strong>not</strong> decided to postpone, however we are keeping an eye on the situation and we will update everyone if anything changes.</p>
       <HashRouter>
         <div className='header'>
           <header className="header-logo">
