@@ -2,7 +2,7 @@
   "name": "wedding",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nthomson.github.io/wedding",
+  "homepage": "http://nickandkylie.com",
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.10.2",
