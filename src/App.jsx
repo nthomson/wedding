@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import { Wedding, Photos, Travel, Registry, Rsvp } from './screens';
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <p className='alert'>As of now we have <strong>not</strong> decided to postpone, however we are keeping an eye on the situation and we will update everyone if anything changes.</p>
-      <HashRouter>
+      <BrowserRouter>
         <div className='header'>
           <header className="header-logo">
             <div className='names'>Nicholas &amp; Kylie</div>
@@ -26,7 +26,7 @@ function App() {
           <Route path="/registry" exact component={Registry} />
           <Route path="/rsvp" exact component={Rsvp} />
         </div>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
