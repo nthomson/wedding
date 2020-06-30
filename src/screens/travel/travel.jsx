@@ -19,10 +19,6 @@ const Travel = () => {
                     < hr />
                     
                     <h2>Lodging</h2>
-                    <p>For your convenience, a block of rooms has been reserved at the Hampton Inn in Wake Forest.
-                        When calling to make your reservation, please mention the Thomson-McFarland wedding
-                        in order to receive a discounted rate. Please call (919) 554-0222 to make your reservation.
-                    </p>
                     <p>
                         <strong>Hampton Inn Wake Forest</strong> <br />
                         12318 Wake Union Church Rd, Wake Forest, NC 27587 <br />
