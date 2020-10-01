@@ -8,7 +8,7 @@ import SiteNav from './components/site-nav/site-nav';
 function App() {
   return (
     <div className="App">
-      <p className='alert'>Due to the current pandemic we have decided to postpone our wedding. We will be sure to update everyone ASAP when we decide on a new date. Stay healthy!</p>
+      {/* <p className='alert'>Due to the current pandemic we have decided to postpone our wedding. We will be sure to update everyone ASAP when we decide on a new date. Stay healthy!</p> */}
       <BrowserRouter>
         <div className='header'>
           <header className="header-logo">

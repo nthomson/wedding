@@ -8,8 +8,7 @@ const Wedding = () => {
             <div className='container'>
                 <div className='flex-contain'>
                     <div className='col wedding-info'>
-                        <p>Currently postponed due to COVID-19,</p>
-                        <p>Ceremony: TBD</p>
+                        <p>Ceremony: October 23, 2021</p>
                     </div>
                     <div className='col'>
                         <img src='/images/wedding.jpg' />
